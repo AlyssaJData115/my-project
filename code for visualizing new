@@ -1,0 +1,5 @@
+stats<-read.csv("game_stats_2019.csv")
+plot(stats$H.RushYards,stats$H.PassYards)
+summary(stats)
+stats2<-stats[9,13]
+pairs(stats2)
